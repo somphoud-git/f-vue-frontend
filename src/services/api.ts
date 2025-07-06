@@ -13,17 +13,17 @@ export const customerApi = {
   // Get all customers
   getCustomers: () => apiClient.get('/customers'),
   
-  // Get customer by ID
-  getCustomerById: (id: number) => apiClient.get(`/customers/${id}`),
+//   // Get customer by ID
+//   getCustomerById: (id: number) => apiClient.get(`/customers/${id}`),
   
-  // Create new customer
-  createCustomer: (customerData: any) => apiClient.post('/customers', customerData),
+//   // Create new customer
+//   createCustomer: (customerData: any) => apiClient.post('/customers', customerData),
   
-  // Update customer
-  updateCustomer: (id: number, customerData: any) => apiClient.put(`/customers/${id}`, customerData),
+//   // Update customer
+//   updateCustomer: (id: number, customerData: any) => apiClient.put(`/customers/${id}`, customerData),
   
-  // Delete customer
-  deleteCustomer: (id: number) => apiClient.delete(`/customers/${id}`),
+//   // Delete customer
+//   deleteCustomer: (id: number) => apiClient.delete(`/customers/${id}`),
 }
 
 export default apiClient 

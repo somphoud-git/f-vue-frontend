@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router';
 import CustomerPage from './module/customer/customer.vue';
-// import Example5 from './module/customer/new5.vue';
-// import Example6 from './module/customer/new6.vue';
 import ParentComponent from './components/ParentComponent.vue';
 import ToggleButton from './components/ToggleButton.vue';
 
